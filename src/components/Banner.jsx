@@ -14,8 +14,11 @@ function Banner(props) {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Welcome To SpaceX</h3>
+          <p>
+            A private organisation planning space missions and sending stuff to
+            outer space
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -26,8 +29,11 @@ function Banner(props) {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Rockets</h3>
+          <p>
+            We have a variety of reusable rockets, some are active and some
+            retired from service
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -38,9 +44,10 @@ function Banner(props) {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Capsules</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            We have reusable capsules as well which have been part of multiple
+            missions
           </p>
         </Carousel.Caption>
       </Carousel.Item>
