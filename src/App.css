@@ -111,3 +111,37 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner-img {
   height: 500px;
 }
+
+
+/* Search-form Styling */
+
+.search-form {
+  width: 60%;
+  padding: 1rem;
+  margin: 5rem auto;
+}
+
+.search-filters {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+
+
+
+
+/* Grid Styling */
+
+.capsule-card {
+  box-shadow: 0 0 10px teal;
+  padding: 1rem;
+}
+
+.capsules-grid {
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
