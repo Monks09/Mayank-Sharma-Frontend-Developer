@@ -5,7 +5,7 @@ export const fetchCapsulesThunkActionProvider = (pageValue) => {
         const { status, reuse_count, type } = getState().search_filters;
         // console.log(page);
 
-        let res = await fetch(`http://localhost:3030/capsules?page=${page}&status=${status}&reuse_count=${reuse_count}&type=${type}`);
+        let res = await fetch(`https://monks-spacex-server.onrender.com/capsules?page=${page}&status=${status}&reuse_count=${reuse_count}&type=${type}`);
         let data = await res.json();
         // console.log(data);
 

@@ -6,10 +6,18 @@ function Card({ capsule_serial, status, type, reuse_count, makeActive }) {
     <div className="capsule-card" onClick={() => makeActive(capsule_serial)}>
       <img src={capsuleImg} alt="capsule" />
       <div>
-        <p>Capsule Serial: {capsule_serial}</p>
-        <p>Status: {status}</p>
-        <p>Type: {type}</p>
-        <p>Reuse Count: {reuse_count}</p>
+        <p>
+          <b>Capsule Serial:</b> {capsule_serial}
+        </p>
+        <p>
+          <b>Status:</b> {status}
+        </p>
+        <p>
+          <b>Type:</b> {type}
+        </p>
+        <p>
+          <b>Reuse Count:</b> {reuse_count}
+        </p>
       </div>
     </div>
   );

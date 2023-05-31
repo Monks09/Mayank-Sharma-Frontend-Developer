@@ -154,6 +154,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .capsule-card {
   box-shadow: 0 0 10px rgb(60, 60, 216);
   border-radius: 1rem;
+  cursor: pointer;
 }
 
 .capsule-card>div {
